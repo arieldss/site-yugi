@@ -1,0 +1,220 @@
+﻿*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   
+
+}
+body{
+   height: 100%;
+   width: 100%;
+   border: solid;
+}
+
+header{ 
+   background-color: rgb(30, 10, 10);
+   width:100%;
+   height:145px;
+   display:flex ;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+   background: url("gradiente.jpg") no-repeat center center fixed;
+   background-size: 100%;
+
+}
+
+
+#principal{
+   margin-top: -90vh;
+   padding: 10px;
+   width:100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.titulocard{
+   background-color:rgb(228, 9, 9);
+   height: 10rex;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+aside{
+   position: sticky;
+   top: 0;
+   background-color: rgb(113, 63, 2);
+   width: 250px;
+   height: 100vh;
+   z-index: 1;
+   display: block;
+   border: solid;
+}
+div .logo{
+   top: -50px;
+   display:flex ;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   
+}
+.logogo{
+   max-width:330px;
+   height: auto;    
+   position:relative;
+   
+   
+
+}
+
+#imagembase{
+   width: 260px;
+   height: 390px;
+   border: solid;
+   float: left;
+   margin: 5px;
+   position:relative
+  
+   
+}
+
+.sinopse{
+   display:flex ;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.personagemtabela{
+   width: 200px;
+   margin: 10px;
+   height: 250px;
+   border: solid;
+   border-radius: 10px;
+   button:hover {
+       background-color: #4CAF50; 
+     }
+     
+}
+
+.nomepersonagens{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.protagonista{
+   width: 250px;
+   height: 442px;
+   border: solid;
+   margin: 5px;
+
+}
+
+.sinopse{
+   margin: 2%;
+   
+}
+
+.sinopse2{
+   font-size:large;
+}
+
+.cartinhas{
+   float: left;
+   width: 6rem;
+   background-color:rgb(228, 9, 9) ;
+   height: 10rex;
+   
+}
+
+#imagemcarta{
+   width: 3rem;
+}
+
+#imagemcarta2{
+   width: 3rem;
+}
+
+.divaside{
+   height: 20%;
+}
+
+.divasi{
+   height: 15%;
+}
+
+#aside1{
+   height: 14rem;
+   margin: 5px;
+}
+
+#aside2{
+   height: 13rem;
+   margin-left: 15px;
+}
+
+#aside3{
+   height: 11rem;
+   margin-right: 20px;
+   
+}
+
+#sinopss{
+   font-size:x-large;
+}
+
+#sobre{
+   border: solid;
+   margin: 10px;
+   max-width: 40%; ;
+   border-radius: 5px;
+}
+
+#cartas{
+   border: solid;
+   margin: 10px;
+   max-width: 40%;
+   border-radius: 5px;
+
+}
+
+#personagens{
+
+   border: solid;
+   margin: 10px;
+   max-width: 40%; ;
+   border-radius: 5px;
+
+}
+
+.hidden{
+   opacity: 0;
+   filter: blur(15px);
+   transition: all 1s;
+   transform: translateX(-100%);
+}
+
+.show{
+   opacity: 1;
+   transform: translateX(0);
+   filter: blur(0px);
+   transition: all 1s;
+}
+
+footer{
+   padding: 60px; 
+   text-align: center;
+   background-color: black;
+   color: aliceblue;
+}

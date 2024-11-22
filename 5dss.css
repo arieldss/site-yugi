@@ -1,0 +1,63 @@
+.nomepersonagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.protagonista{
+    width: 250px;
+    height: 442px;
+    border: solid;
+    margin: 5px;;
+
+}
+
+.sinopse{
+    margin: 20px;
+    
+}
+
+.sinopse2{
+    font-size:large;
+}
+
+.cartinhas{
+    float: left;
+    width: 6%;
+    background-color:rgb(102, 5, 5) ;
+    height: 10rex;
+}
+
+#imagemcarta{
+    width: 3rem;
+}
+
+#imagemcarta2{
+    width: 3rem;
+}
+
+.divaside{
+    height: 20%;
+}
+
+.divasi{
+    height: 15%;
+}
+
+#aside1{
+    height: 14rem;
+    margin: 5px;
+}
+
+#aside2{
+    height: 13rem;
+    margin-left: 15px;
+}
+
+#aside3{
+    height: 11rem;
+    margin-right: 20px;
+    
+}
